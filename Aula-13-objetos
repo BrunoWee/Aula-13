@@ -1,0 +1,87 @@
+/*
+//Exercicio 1
+const filme = {
+    direcao: 'Peter Jackson' ,
+    nome: 'Senhor dos Anéis: A Sociedade do Anel' ,
+    anoLancamento: '1 de janeiro de 2002' ,
+    listaElenco: ["Elijah Wood", "Ian McKellen"] ,
+    filmeAssistido: true
+};
+
+console.log ("Diretor: ", filme.direcao)
+console.log ("Nome do filme: "filme.nome)
+console.log ("Ano de lançamento: "filme.anoLancamento)
+console.log ("Elenco: "filme.listaElenco)
+console.log ("Filme já assistido? "filme.filmeAssistido)
+*/
+/*
+//Exercicio 2
+const pessoa = {
+    nome: 'Bruno' ,
+    idade: '19' ,
+    generoMusical: 'Trap' ,
+};
+
+console.log("o nome da pessoa é ", pessoa.nome, "ela tem ", pessoa.idade, "anos", "e gosta muito de ", pessoa.generoMusical);
+
+
+//Exercicio 3
+/*
+const filme = {
+    direcao: 'Peter Jackson' ,
+    nome: 'Senhor dos Anéis: A Sociedade do Anel' ,
+    anoLancamento: '1 de janeiro de 2002' ,
+    listaElenco: ["Elijah Wood", "Ian McKellen"] ,
+    filmeAssistido: true ,
+    listaPersonagens: ["Frodo Baggins", "Gandalf"] ,
+}
+
+console.log(filmes.listaElenco[0] + "->" + filme.listaPersonagens[0]);
+console.log(filmes.listaElenco[1] + "->" + filme.listaPersonagens[1]);
+
+filme.listaElenco[0] = (property) 
+*/
+/*
+const usuario = {
+    nome: 'Prof ,
+    idade: 25 ,
+    email: 'prof@senacrs.com.br' ,
+    cidade: 'São Paulo'
+}
+
+const novoUsuario = {
+    ...usuario,
+    nome: 'João' ,
+    idade: 28
+}
+
+console.log(usuario);
+console.log(novoUsuario);
+*/
+/*
+const listaDeNomes = ["Mika", "Paula", "Victor"]
+
+const copiaListaDeNomes = [...listaDeNomes]
+
+console.log(copiaListaDeNomes) //["Mika", "Paula", "Victor"]
+*/
+
+//Exercicio 4
+const pessoa = {
+    nome: 'Bruno' ,
+    idade: '19' ,
+    generoMusical: 'Trap' ,
+};
+
+
+function objetoPessoas (pessoa) {
+    const pessoas = {
+        ...novaPropriedade  ,
+        comidas: ["Strogonoff", "Batata frita"]
+
+        nomeAmigo: 'João' ,
+        idadeAmigo: '18' ,
+    }
+}
+
+console.log(pessoa.nome, pessoa.idade, pessoa, generoMusical)
